@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: processing-service
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      retries: 5
+      retry-backoff-ms: 300
+      acks: all
+      batch-size: 16384
+      linger-ms: 50
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      properties:
+        spring.json.trusted.packages: '*'
+    consumer:
+      group-id: processing-servive
+      auto-offset-reset: latest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties:
+        spring.json.trusted.packages: '*'
+topic:
+  process-event: order.processing.v1
+  completed-event: order.completed.v1
+server:
+  port: 8082
+logging:
+  level:
+    org.springframework.kafka: DEBUG
+    com.orders.processing_servive.kafka.consumer: DEBUG
+
