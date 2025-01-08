@@ -1,6 +1,7 @@
-package com.orders.processing_servive.service;
+package com.orders.processing_service.service;
 
-import com.orders.processing_servive.payload.outbound.ProcessingOrder;
+
+import com.orders.processing_service.payload.outbound.ProcessingOrder;
 
 public interface CompletedEvent {
     void sendCompletedEvent(ProcessingOrder processingOrder);

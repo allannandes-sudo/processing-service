@@ -1,12 +1,13 @@
-package com.orders.processing_servive.mapper;
+package com.orders.processing_service.mapper;
 
-import com.orders.processing_servive.model.enums.OrderStatus;
-import com.orders.processing_servive.payload.inbound.DeliveryOrder;
-import com.orders.processing_servive.payload.outbound.ProcessingOrder;
+
+import com.orders.processing_service.model.enums.OrderStatus;
+import com.orders.processing_service.payload.inbound.DeliveryOrder;
+import com.orders.processing_service.payload.outbound.ProcessingOrder;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import static com.orders.processing_servive.model.enums.OrderStatus.*;
+import static com.orders.processing_service.model.enums.OrderStatus.*;
 import static org.mapstruct.NullValueCheckStrategy.ALWAYS;
 import static org.mapstruct.NullValuePropertyMappingStrategy.IGNORE;
 

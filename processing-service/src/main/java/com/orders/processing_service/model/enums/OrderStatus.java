@@ -1,4 +1,4 @@
-package com.orders.processing_servive.model.enums;
+package com.orders.processing_service.model.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,9 +1,9 @@
-package com.orders.processing_servive.payload.outbound;
+package com.orders.processing_service.payload.outbound;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.orders.processing_servive.annotations.ZonedDataTimeFormatter;
-import com.orders.processing_servive.model.Product;
-import com.orders.processing_servive.model.enums.OrderStatus;
+import com.orders.processing_service.annotations.ZonedDataTimeFormatter;
+import com.orders.processing_service.model.Product;
+import com.orders.processing_service.model.enums.OrderStatus;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

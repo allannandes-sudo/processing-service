@@ -1,6 +1,7 @@
-package com.orders.processing_servive.service;
+package com.orders.processing_service.service;
 
-import com.orders.processing_servive.payload.inbound.DeliveryOrder;
+
+import com.orders.processing_service.payload.inbound.DeliveryOrder;
 
 public interface ProcessOrderService {
     void processOrder(DeliveryOrder deliveryOrder);

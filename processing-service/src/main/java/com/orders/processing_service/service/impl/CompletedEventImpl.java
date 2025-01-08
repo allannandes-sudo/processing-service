@@ -1,9 +1,9 @@
-package com.orders.processing_servive.service.impl;
+package com.orders.processing_service.service.impl;
 
 
-import com.orders.processing_servive.kafka.producer.KafkaEventCompleted;
-import com.orders.processing_servive.payload.outbound.ProcessingOrder;
-import com.orders.processing_servive.service.CompletedEvent;
+import com.orders.processing_service.kafka.producer.KafkaEventCompleted;
+import com.orders.processing_service.payload.outbound.ProcessingOrder;
+import com.orders.processing_service.service.CompletedEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

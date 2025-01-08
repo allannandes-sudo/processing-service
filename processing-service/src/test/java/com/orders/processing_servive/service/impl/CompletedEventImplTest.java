@@ -1,10 +1,11 @@
 package com.orders.processing_servive.service.impl;
 
 
-import com.orders.processing_servive.kafka.producer.KafkaEventCompleted;
-import com.orders.processing_servive.model.Product;
-import com.orders.processing_servive.model.enums.OrderStatus;
-import com.orders.processing_servive.payload.outbound.ProcessingOrder;
+import com.orders.processing_service.kafka.producer.KafkaEventCompleted;
+import com.orders.processing_service.model.Product;
+import com.orders.processing_service.model.enums.OrderStatus;
+import com.orders.processing_service.payload.outbound.ProcessingOrder;
+import com.orders.processing_service.service.impl.CompletedEventImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

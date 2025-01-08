@@ -1,9 +1,9 @@
-package com.orders.processing_servive.kafka.producer.impl;
+package com.orders.processing_service.kafka.producer.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.orders.processing_servive.kafka.producer.KafkaEventCompleted;
-import com.orders.processing_servive.kafka.producer.KafkaEventProducer;
-import com.orders.processing_servive.payload.outbound.ProcessingOrder;
+import com.orders.processing_service.kafka.producer.KafkaEventCompleted;
+import com.orders.processing_service.kafka.producer.KafkaEventProducer;
+import com.orders.processing_service.payload.outbound.ProcessingOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

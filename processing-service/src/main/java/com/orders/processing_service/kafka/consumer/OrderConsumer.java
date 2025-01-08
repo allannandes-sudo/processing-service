@@ -1,10 +1,10 @@
-package com.orders.processing_servive.kafka.consumer;
+package com.orders.processing_service.kafka.consumer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.orders.processing_servive.exception.MessageProcessingException;
-import com.orders.processing_servive.payload.inbound.DeliveryOrder;
-import com.orders.processing_servive.service.ProcessOrderService;
+import com.orders.processing_service.exception.MessageProcessingException;
+import com.orders.processing_service.payload.inbound.DeliveryOrder;
+import com.orders.processing_service.service.ProcessOrderService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;

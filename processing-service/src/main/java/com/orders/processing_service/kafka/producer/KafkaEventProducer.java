@@ -1,4 +1,4 @@
-package com.orders.processing_servive.kafka.producer;
+package com.orders.processing_service.kafka.producer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

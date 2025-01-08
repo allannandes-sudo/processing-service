@@ -1,4 +1,4 @@
-package com.orders.processing_servive.model;
+package com.orders.processing_service.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.constraints.NotBlank;

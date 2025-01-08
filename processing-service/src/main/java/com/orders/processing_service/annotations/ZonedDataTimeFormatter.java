@@ -1,4 +1,4 @@
-package com.orders.processing_servive.annotations;
+package com.orders.processing_service.annotations;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.annotation.JsonFormat;

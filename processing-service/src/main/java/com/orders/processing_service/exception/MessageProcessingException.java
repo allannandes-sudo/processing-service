@@ -1,4 +1,4 @@
-package com.orders.processing_servive.exception;
+package com.orders.processing_service.exception;
 
 import java.io.Serial;
 
